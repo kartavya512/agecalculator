@@ -1,0 +1,40 @@
+hr {
+    width: 80%;
+    margin-top: 100px;
+
+}
+
+.card {
+    background: hsl(0, 0%, 100%);
+    width: 50%;
+    margin: 2.5%;
+    margin-left: 25%;
+
+    align-items: center;
+
+    border-radius: 20px 20px 140px 20px;
+
+    @media screen and (max-width: 768px) {
+        width: 85%;
+        margin: 5%;
+        margin-top: 20%;
+        border-radius: 20px 20px 140px 20px;
+    }
+}
+
+body {
+    background: hsl(0, 0%, 94%);
+    margin: 0%;
+}
+
+.colour {
+    color: hsl(259, 100%, 65%);
+
+}
+
+.colour1 {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50px;
+
+
+}
